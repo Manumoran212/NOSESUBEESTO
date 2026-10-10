@@ -1,0 +1,55 @@
+Taller de Computadoras
+
+Este es un sistema en Java que permite registrar las computadoras que entren al taller, así como ver la lista de las que están dentro y eliminarlas cuando ya no se necesiten.
+
+Requisitos previos
+
+Tener instalado un JDK para utilizar el código.
+Tener instalado un editor de código o IDE para ejecutar el programa.
+
+Instalación
+1. Descargar de este repositorio el archivo .zip
+2. Descomprimirlo en un compputadora
+3. Abrirlo desde tu IDE o editor de código.
+Uso
+
+1.- Dentro del proyecto correr la clase Main.java ya que ahí está el método main que arranca el programa.
+2.- Aparecerá un menú en la consola con las siguientes opciones:
+    1. Agregar computadora: El programa pide uno por uno la marca, modelo, procesador, cantidad de RAM y estado de la computadora y la guarda en la lista ligada.
+    2. Mostrar computadoras: Imprime en pantalla todas las computadoras que están guardadas con sus datos.
+    3. Eliminar computadora: Muestra la lista de computadoras numerada y pide la marca y modelo de la que se desee eliminar.
+    4. Buscar computadora: Permite buscar una computadora específica por marca y modelo.
+    5. Salir: Se cierra el programa.
+3.- Escribe el número de la opción a utilizar y presiona enter, el menú se volverá a mostrar después de cada acción hasta salir del sistema.
+
+Características
+
+Registro de computadoras: Guarda marca, modelo, procesador, RAM y estado de cada computadora que entra al taller.
+Eliminación de computadoras: Quita una computadora de la lista si ya se entregó o ya no se necesita tener registrada.
+Búsqueda de computadoras: Permite encontrar una computadora específica por marca y modelo dentro del taller.
+Visualización de computadoras: Muestra en cualquier momento todas las computadoras que siguen registradas en el taller.
+Implementación de lista ligada: Utiliza una estructura de datos de lista ligada simple implementada manualmente sin librerías externas.
+Se utilizaron clases, objetos, atributos y métodos para desarrollar el programa.
+
+Estructura del proyecto
+El proyecto consta de las siguientes clases:
+Computadora.java: Clase que representa una computadora con sus atributos como marca, modelo, procesador, RAM y estado. Contiene getters para acceder a los datos y métodos equals y hashCode para comparar computadoras.
+Node.java: Clase genérica que representa un nodo en la lista ligada. Almacena datos de tipo T y una referencia al siguiente nodo.
+SinglyLinkedList.java: Implementación de la lista ligada simple que contiene métodos para insertar al inicio, insertar al final, eliminar, buscar y recorrer la lista.
+Main.java: Clase principal que contiene el método main y la lógica del menú interactivo. Maneja la entrada del usuario y controla las operaciones sobre la lista de computadoras.
+
+Conceptos de programación utilizados
+
+Programación Orientada a Objetos (POO).
+Clases y Objetos.
+Genéricos en Java.
+Encapsulación de datos.
+Métodos equals y hashCode.
+Entrada de datos con Scanner.
+Estructuras de datos avanzadas como listas ligadas.
+Algoritmos de búsqueda y eliminación.
+
+Autor
+
+Manuel Rodríguez Moran
+Email: manumoran212@gmail.com
